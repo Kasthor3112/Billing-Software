@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React from 'react';
 
 const Dashboard = () => {
   // Mock data for demonstration

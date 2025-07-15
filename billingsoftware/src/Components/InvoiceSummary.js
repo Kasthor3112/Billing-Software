@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React from 'react';
 
 const InvoiceSummary = ({ subTotal, totalGST, grandTotal }) => (
   <section className="bg-gray-50 p-6 rounded-lg shadow-inner">

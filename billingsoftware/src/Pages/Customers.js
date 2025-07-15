@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React, { useState } from 'react';
 import DataTable from '../Components/Datatable';
 
 const CustomersPage = () => {

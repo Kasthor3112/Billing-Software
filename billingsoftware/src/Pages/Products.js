@@ -1,5 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import ItemTable from '../Components/ItemTable';
+import React, { useState } from 'react';
 import DataTable from '../Components/Datatable';
 
 const ProductsPage = () => {

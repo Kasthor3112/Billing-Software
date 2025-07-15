@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useCallback } from 'react';
+import React from 'react';
 
 const Footer = () => (
   <footer className="bg-gray-800 text-white text-center p-4 mt-8 rounded-t-lg shadow-inner">
