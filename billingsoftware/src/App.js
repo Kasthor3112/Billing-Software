@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { BrowserRouter, Routes, Route, Link, useLocation, useNavigate } from 'react-router-dom';
+import { Routes, Route, useNavigate } from 'react-router-dom';
 import Header from './Pages/Header';
 import Dashboard from './Pages/Dashboard';
 import InvoiceHeader from './Components/InvoiceHeader';
@@ -35,6 +35,7 @@ const App = () => {
   // State to manage the current page view (simulating react-router-dom's location.pathname)
   const [currentPage, setCurrentPage] = useState('/login'); // Start at login page
   const [isLoggedIn, setIsLoggedIn] = useState(false);
+  console.log('Current Page:', currentPage);
 
   // Function to calculate totals (subTotal, totalGST, grandTotal)
   const calculateTotals = useCallback(() => {
